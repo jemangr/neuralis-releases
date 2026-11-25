@@ -1,0 +1,12 @@
+﻿{
+  "version": "0.1.0",
+  "tag": "v0.1.0-alpha",
+  "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v0.1.0-alpha/Neuralis-ZeroHour.apk",
+  "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v0.1.0-alpha",
+  "remoteConfig": {
+    "demoAds": true,
+    "adCooldownSec": 15,
+    "eventMultiplier": 1.0,
+    "apiUrl": "https://api.playneuralis.app"
+  }
+}
