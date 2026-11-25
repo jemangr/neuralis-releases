@@ -1,12 +1,8 @@
-{
-  "version": "0.8.0",
-  "tag": "v0.8.0",
+﻿{
+  "version": "0.9.0",
+  "tag": "v0.9.0",
+  "minClientVersion": "0.1.0",
   "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk",
   "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/latest",
-  "remoteConfig": {
-    "demoAds": true,
-    "adCooldownSec": 15,
-    "eventMultiplier": 1.0,
-    "apiUrl": "https://api.playneuralis.app"
-  }
+  "notes": "3D tiered building upgrades (Lv.5+ & Lv.10+), 100-stage AETHER campaign balance, Ranked mini-game cap & VIP combat perks."
 }
