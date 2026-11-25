@@ -13,14 +13,16 @@
 > **Permanent Always-Latest Direct APK Link (ίδιο όνομα πάντα -> τελευταίο release):**  
 > `https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk`
 
-- **Latest Release:** `v0.7.0` (`VersionCode: 7`)
+- **Latest Release:** `v0.7.1` (`VersionCode: 8`)
 - **Package ID:** `com.jemangr.neuralis.zerohour`
 - **Architecture:** Android ARM64 (IL2CPP), Android 8.0+ (API 26+)
 - **Languages:** Greek (`el`) & English (`en`)
 
 ---
 
-## 🆕 What's New in `v0.7.0`
+## 🆕 What's New in `v0.7.1`
+
+- **Cleaner Top-Right Home HUD:** Removed the standalone `EL/EN` quick button from the home HUD (language switching lives cleanly inside Settings) and replaced the Settings trigger with an exact **1:1 square steel gear tile** alongside an expanded Titanium Telemetry Banner (`StatusStrip`).
 
 - **Cinematic Opening Story Prologue & Hero Mentor Onboarding:** 5-beat visual-novel story prologue (Commander **Kael Vance** & **Dr. Aria Kestrel**) introducing the *AETHER* AI uprising with typewriter narration & Skip button, plus a square Hero Mentor avatar above the guided *Zero Hour Directive*.
 - **24 AAA Hand-Painted Game Icons:** Completely replaced all cube/primitive icons (Hero Tactical Gear, 4 Combat Drones, Nano-Repair Bay, Syndicate Crest, Raid Radar, HUD & Store icons).
@@ -30,7 +32,7 @@
 
 ---
 
-## 📸 Screenshots (`v0.7.0` — EL & EN)
+## 📸 Screenshots (`v0.7.1` — EL & EN)
 
 ### Opening Story Prologue & Main Bunker HUD
 <p align="center">
