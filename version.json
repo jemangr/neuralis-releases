@@ -1,8 +1,10 @@
 ﻿{
-  "version": "0.9.0",
-  "tag": "v0.9.0",
+  "version": "1.0.0",
+  "versionCode": 12,
+  "tag": "v1.0.0",
   "minClientVersion": "0.1.0",
   "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk",
   "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/latest",
-  "notes": "3D tiered building upgrades (Lv.5+ & Lv.10+), 100-stage AETHER campaign balance, Ranked mini-game cap & VIP combat perks."
+  "notes": "New App Icon & Launch Splash, 6-Chapter Starter Guide with group gifts until shield lifts, visual icon-first Store, Commander Manual in Settings & readability improvements.",
+  "updatedAt": "2026-11-26"
 }
