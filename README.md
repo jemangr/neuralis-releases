@@ -32,7 +32,7 @@ Command a subterranean Faraday bunker, balance EMP shielding and reactor stress,
 [![Latest Release](https://img.shields.io/github/v/release/jemangr/neuralis-releases?include_prereleases&style=for-the-badge&color=00b0ff)](https://github.com/jemangr/neuralis-releases/releases/latest)
 
 - **Always Latest APK:** [`Neuralis-ZeroHour.apk`](https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk)
-- **Latest Published Android Tag:** `v1.2.0` (`VersionCode: 16`, Android ARM64, API 26+) — `v1.4.0` preview live on WebGL (`gh-pages`), APK release pending final inspection approval.
+- **Latest Published Android Tag:** `v1.4.0` (`VersionCode: 18`, Android ARM64, API 26+, verified on `gh-pages` & APK).
 
 ---
 
