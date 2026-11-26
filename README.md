@@ -5,21 +5,21 @@ Command a subterranean Faraday bunker, defend the North Gate in real-time 3D min
 
 ---
 
-## Screenshots (`v1.0.0`)
+## Screenshots (`v1.0.1`)
 
 <p align="center">
-  <img src="previews/V095_Launch_Splash_EL.png" alt="Launch Splash & App Emblem" width="240" />
-  <img src="previews/V100_Store_Icons_EL.png" alt="Visual Icon-First Store" width="240" />
-  <img src="previews/V100_Store_VaultGrid_EL.png" alt="Quantum Diamond Vaults" width="240" />
+  <img src="previews/V095_Launch_Splash_EL.png" alt="Launch Splash Without Unity Logo" width="240" />
+  <img src="previews/V101_PostMiniGame_HUD_EL.png" alt="Readable Large HUD Typography EL" width="240" />
+  <img src="previews/V101_HUD_Typography_EN.png" alt="Readable Large HUD Typography EN" width="240" />
 </p>
 <p align="center">
-  <img src="previews/V100_Starter_Forced_EL.png" alt="Starter Guide Chapter 1" width="240" />
-  <img src="previews/V100_Starter_Bubble_EL.png" alt="Starter Guide Action Bubble" width="240" />
-  <img src="previews/V100_Starter_Chapters_EL.png" alt="Starter Guide 6 Chapters & Gifts" width="240" />
+  <img src="previews/V101_Bunker_Upgrading_EL.png" alt="Live Upgrade Countdown & Large Icons" width="240" />
+  <img src="previews/V101_Lab_Icons_EL.png" alt="Lab & Research Icon Cards" width="240" />
+  <img src="previews/V101_Starter_Chapters_EL.png" alt="6-Chapter Starter Guide & Gifts" width="240" />
 </p>
 <p align="center">
-  <img src="previews/V100_Settings_GameGuide_EL.png" alt="Commander Manual in Settings" width="240" />
-  <img src="previews/V100_Google_Overlay_EL.png" alt="Google Sign-In Dialog" width="240" />
+  <img src="previews/V101_Settings_Audio_EL.png" alt="Settings Music & SFX Controls" width="240" />
+  <img src="previews/V100_Store_Icons_EL.png" alt="Icon-First Store Grid" width="240" />
   <img src="previews/V090_Bunker_Tier3D_EL.png" alt="3D Tiered Building Upgrades" width="240" />
 </p>
 
@@ -31,12 +31,13 @@ Command a subterranean Faraday bunker, defend the North Gate in real-time 3D min
 [![Latest Release](https://img.shields.io/github/v/release/jemangr/neuralis-releases?include_prereleases&style=for-the-badge&color=00b0ff)](https://github.com/jemangr/neuralis-releases/releases/latest)
 
 - **Always Latest APK:** [`Neuralis-ZeroHour.apk`](https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk)
-- **Current Build:** `v1.0.0` (`VersionCode: 12`, Android ARM64, API 26+)
+- **Current Build:** `v1.0.1` (`VersionCode: 13`, Android ARM64, API 26+)
 
 ---
 
-## What's New (`v1.0.0` Highlights)
-- **New App Icon & Launch Splash Screen:** Refreshed app emblem and atmospheric command bunker opening splash screen.
-- **6-Chapter Starter Guide with Gifts:** Step-by-step onboarding from your first upgrade, farming, army training, and offers all the way to Core Lv.5 and joining a Syndicate — featuring guided first steps, a smart floating action bubble, and gift rewards upon completing each group.
-- **Icon-First Store Redesign & Larger Typography:** All Store categories redesigned around clean visual icons, compact pricing, notification badges for free claims, and larger, high-contrast mobile text.
-- **Commander's Manual & UI Polish:** New illustrated Game Guide inside Settings, cleaner Google Sign-In dialog, and general visual and stability improvements.
+## What's New (`v1.0.1` Highlights)
+- **Atmospheric Relaxing Music & Audio Settings:** Added a calm, atmospheric sci-fi background music carpet with dedicated Music ON/OFF and SFX ON/OFF toggles in Settings.
+- **Clean Launch Screen:** Removed the engine splash logo overlay so only the Neuralis artwork appears on startup.
+- **Much Larger Readable Text & Buttons:** Enforced a crisp minimum font size across the entire top status bar, side timers, action controls, upgrades, Lab, Store, Army, and Starter Guide.
+- **Live Upgrade Timers & HUD Fix:** Active upgrade, crafting, research, and training timers now count down live every second, and HUD icons/bars always remain visible after exiting mini-games.
+- **Smoother Onboarding Progression:** Rebalanced early Campaign battles and Chapter rewards so the 6-group Starter Guide flows smoothly through graduation.
