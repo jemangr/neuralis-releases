@@ -1,10 +1,10 @@
 {
-    "version":  "1.0.2",
+    "version":  "1.1.0",
     "minClientVersion":  "0.1.0",
-    "notes":  "Working in-app auto-update check \u0026 download, screen stays awake while playing, clear Cloud Save privacy notice in Google Sign-In \u0026 polished update modal.",
-    "versionCode":  14,
+    "notes":  "AETHER AI Director \u0026 Survival Dilemmas, Sector #001 Signal Tower, clean Minute-1 HUD \u0026 solo Ch.6, honest PvE/NPC rankings, rebalanced mini-games \u0026 single-building inspector.",
+    "versionCode":  15,
     "apkUrl":  "https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk",
     "releaseUrl":  "https://github.com/jemangr/neuralis-releases/releases/latest",
-    "tag":  "v1.0.2",
+    "tag":  "v1.1.0",
     "updatedAt":  "2026-11-26"
 }
