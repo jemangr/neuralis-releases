@@ -1,10 +1,10 @@
 {
-    "version":  "1.0.1",
+    "version":  "1.0.2",
     "minClientVersion":  "0.1.0",
-    "notes":  "Ambient relaxing BGM with Settings toggle, Unity splash logo removed, Lv.2+ large readable fonts everywhere, live upgrade countdowns, post-minigame HUD fix \u0026 smoother Starter Guide Campaign pacing.",
-    "versionCode":  13,
+    "notes":  "Working in-app auto-update check \u0026 download, screen stays awake while playing, clear Cloud Save privacy notice in Google Sign-In \u0026 polished update modal.",
+    "versionCode":  14,
     "apkUrl":  "https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk",
     "releaseUrl":  "https://github.com/jemangr/neuralis-releases/releases/latest",
-    "tag":  "v1.0.1",
+    "tag":  "v1.0.2",
     "updatedAt":  "2026-11-26"
 }
