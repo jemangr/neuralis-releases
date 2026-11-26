@@ -1,10 +1,7 @@
 {
-    "version":  "1.1.0",
-    "minClientVersion":  "0.1.0",
-    "notes":  "AETHER AI Director \u0026 Survival Dilemmas, Sector #001 Signal Tower, clean Minute-1 HUD \u0026 solo Ch.6, honest PvE/NPC rankings, rebalanced mini-games \u0026 single-building inspector.",
-    "versionCode":  15,
-    "apkUrl":  "https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk",
-    "releaseUrl":  "https://github.com/jemangr/neuralis-releases/releases/latest",
-    "tag":  "v1.1.0",
-    "updatedAt":  "2026-11-26"
+    "version":  "1.2.0",
+    "versionCode":  16,
+    "apkUrl":  "https://github.com/jemangr/neuralis-releases/releases/download/v1.2.0/Neuralis-ZeroHour.apk",
+    "releaseUrl":  "https://github.com/jemangr/neuralis-releases/releases/tag/v1.2.0",
+    "notes":  "Full-screen 3D Isometric World Map, Parallel 3D Marches, Hero Combat Skills, T1-T10 Unit Tiers, Counter Triangle \u0026 6-Round Battle Report."
 }
