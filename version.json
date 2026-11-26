@@ -1,7 +1,7 @@
 {
-    "version":  "1.2.0",
-    "versionCode":  16,
-    "apkUrl":  "https://github.com/jemangr/neuralis-releases/releases/download/v1.2.0/Neuralis-ZeroHour.apk",
-    "releaseUrl":  "https://github.com/jemangr/neuralis-releases/releases/tag/v1.2.0",
-    "notes":  "Full-screen 3D Isometric World Map, Parallel 3D Marches, Hero Combat Skills, T1-T10 Unit Tiers, Counter Triangle \u0026 6-Round Battle Report."
+    "apkUrl":  "https://github.com/jemangr/neuralis-releases/releases/download/v1.4.0/Neuralis-ZeroHour.apk",
+    "releaseUrl":  "https://github.com/jemangr/neuralis-releases/releases/tag/v1.4.0",
+    "versionCode":  18,
+    "version":  "1.4.0",
+    "notes":  "Zero-void 3D cave, articulated bots + 6h Charging Station, World Map Territory/Radar/Bookmarks, Hero Recruit Chips, Alliance Roster \u0026 5m Co-op Rallies."
 }
