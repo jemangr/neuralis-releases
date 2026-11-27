@@ -5,24 +5,24 @@ Command a subterranean Faraday bunker, balance EMP shielding and reactor stress,
 
 ---
 
-## Live Browser Preview (`v1.7.0`)
+## Live Browser Preview (`v1.8.0`)
 
 - **Play Instantly in Browser (WebGL):** https://jemangr.github.io/neuralis-releases/
-- Built with Unity 6 **Gzip compression**, **decompression fallback**, **content-hashed `.unityweb` assets**, and `?v=1.7.0` cache busting.
+- Built with Unity 6 **Gzip compression**, **decompression fallback**, **content-hashed `.unityweb` assets**, and `?v=1.8.0` cache busting.
 
 ---
 
-## Latest Previews (`v1.7.0`)
+## Latest Previews (`v1.8.0`)
 
 <p align="center">
-  <img src="previews/V170_BunkerGateCrates_EL.png" alt="Gate Threat, Spatial Crates & Producer Bubbles EL" width="240" />
-  <img src="previews/V170_UpgradeBenefitShortfall_EL.png" alt="Decision-First Upgrade & Shortfall Jump EL" width="240" />
-  <img src="previews/V170_GateDebrief_EL.png" alt="Gate Defense Outcome Debriefing EL" width="240" />
+  <img src="previews/V180_RobotCloseUp_Gate.png" alt="Sculpted 11-Bone Bunker Engineer with Glowing Cyan Visor" width="240" />
+  <img src="previews/V180_RobotCharging_CloseUp.png" alt="Docked Bunker Engineer & Hovering Sculpted Recon Drone" width="240" />
+  <img src="previews/V180_PrinterLab_CloseUp.png" alt="Rotated 3D Printer Cutaway Interior Facing Camera" width="240" />
 </p>
 <p align="center">
+  <img src="previews/V180_BunkerLivingBots_EL.png" alt="Living Bunker Units & Orthogonal Pathfinding EL" width="240" />
+  <img src="previews/V180_BunkerLivingBots_EN.png" alt="Living Bunker Units & Orthogonal Pathfinding EN" width="240" />
   <img src="previews/V170_MarchAutoReason_EL.png" alt="Auto-Counter Explanation & Sticky Dispatch EL" width="240" />
-  <img src="previews/V170_BattleReportClean_EL.png" alt="Battle Report: Loot, Heroes, Repair CTA & Collapsed Rounds EL" width="240" />
-  <img src="previews/V170_StorePasses_EL.png" alt="Structured 3-Field Pass Cards & Claim Rules EL" width="240" />
 </p>
 
 ---
