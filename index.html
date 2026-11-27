@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Neuralis Zero Hour v2.0.1</title>
+  <title>Neuralis Zero Hour v2.0.2</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html, body {
@@ -146,12 +146,12 @@
       <canvas id="unity-canvas" tabindex="-1"></canvas>
       <div id="loader-overlay">
         <div id="loader-title">Neuralis Zero Hour</div>
-        <div id="loader-sub">v2.0.1 • Operational Web Preview</div>
+        <div id="loader-sub">v2.0.2 • Operational Web Preview</div>
         <div id="bar-track"><div id="bar-fill"></div></div>
         <div id="loader-pct">0%</div>
-        <div id="loader-status">Initializing Tactical Systems...</div>
+        <div id="loader-status">Αρχικοποίηση συστημάτων / Initializing...</div>
         <div id="loader-err"></div>
-        <button id="retry-btn" onclick="location.reload()">Reload Session</button>
+        <button id="retry-btn" onclick="location.reload()">Δοκίμασε ξανά • Retry</button>
       </div>
     </div>
   </div>
@@ -165,50 +165,82 @@
     const retryBtn = document.querySelector("#retry-btn");
 
     const buildUrl = "Build";
-    const loaderUrl = buildUrl + "/b644e02ecc591e33f36b890f6c349a53.loader.js?v=2.0.1";
+    const loaderUrl = buildUrl + "/350ddc7b89a621c3950afa293ef0a913.loader.js?v=2.0.2";
     const config = {
-      dataUrl: buildUrl + "/4f6999b409800f5bf645f274ddb57bbb.data",
+      dataUrl: buildUrl + "/92ab99e6a3bec755c428ddfa1182450a.data",
       frameworkUrl: buildUrl + "/a14c5eba52a3c49b1412f6b439fe7b14.framework.js",
-      codeUrl: buildUrl + "/892a097c4c082b7e88d56898499ca845.wasm",
+      codeUrl: buildUrl + "/e97efec6e070dae941e171b8b6c58e25.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "jemangr",
       productName: "Neuralis Zero Hour",
-      productVersion: "2.0.1",
+      productVersion: "2.0.2",
       devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
       matchWebGLToCanvasSize: true
     };
 
+    let lastPct = 0;
+    let lastProgressTime = Date.now();
+    let currentStepName = "Έναρξη λήψης (Step 1/4)";
+
+    const watchdogTimer = setInterval(() => {
+      if (overlay.style.display === "none") {
+        clearInterval(watchdogTimer);
+        return;
+      }
+      if (Date.now() - lastProgressTime > 25000 && lastPct < 99) {
+        clearInterval(watchdogTimer);
+        errText.style.display = "block";
+        retryBtn.style.display = "inline-block";
+        errText.innerHTML = `Η σύνδεση καθυστέρησε στο <b>${lastPct}%</b> [${currentStepName}].<br>Πατήστε το κουμπί για άμεση επανάληψη.`;
+        console.warn(`[Neuralis Watchdog] Timeout at ${lastPct}% during step: ${currentStepName}`);
+      }
+    }, 2000);
+
     const script = document.createElement("script");
     script.src = loaderUrl;
     script.onload = () => {
-      statusText.textContent = "Loading WebAssembly Core & Assets...";
+      currentStepName = "Μεταγλώττιση WASM (Step 2/4)";
+      statusText.textContent = "Λήψη πακέτων & WASM Engine...";
+      lastProgressTime = Date.now();
+
       createUnityInstance(canvas, config, (progress) => {
         const pct = Math.round(progress * 100);
         barFill.style.width = pct + "%";
         pctText.textContent = pct + "%";
+        if (pct > lastPct) {
+          lastPct = pct;
+          lastProgressTime = Date.now();
+        }
         if (pct < 30) {
-          statusText.textContent = "Streaming Data Package...";
+          currentStepName = "Λήψη δεδομένων (Step 1/4)";
+          statusText.textContent = "Λήψη πακέτου δεδομένων (Data package)...";
         } else if (pct < 75) {
-          statusText.textContent = "Compiling WASM Engine...";
+          currentStepName = "Μεταγλώττιση κώδικα (Step 2/4)";
+          statusText.textContent = "Μεταγλώττιση μηχανής WebAssembly...";
         } else if (pct < 98) {
-          statusText.textContent = "Initializing 3D Subterranean Scene...";
+          currentStepName = "Φόρτωση σκηνής (Step 3/4)";
+          statusText.textContent = "Αρχικοποίηση 3D καταφυγίου Sector 001...";
         } else {
-          statusText.textContent = "Readying Commander Interface...";
+          currentStepName = "Τερματικό διοίκησης (Step 4/4)";
+          statusText.textContent = "Προετοιμασία τερματικού διοίκησης...";
         }
       }).then(() => {
+        clearInterval(watchdogTimer);
         overlay.style.opacity = "0";
         setTimeout(() => { overlay.style.display = "none"; }, 280);
       }).catch((message) => {
+        clearInterval(watchdogTimer);
         errText.style.display = "block";
         retryBtn.style.display = "inline-block";
-        errText.textContent = "WebGL Initialization Error: " + String(message);
-        console.error("[Neuralis WebGL Error]", message);
+        errText.innerHTML = `Σφάλμα φόρτωσης στο <b>${lastPct}%</b> [${currentStepName}]:<br><span style="font-size:11px;color:#ff9e9e;">${String(message)}</span>`;
+        console.error("[Neuralis WebGL Error at " + lastPct + "% in " + currentStepName + "]", message);
       });
     };
     script.onerror = () => {
+      clearInterval(watchdogTimer);
       errText.style.display = "block";
       retryBtn.style.display = "inline-block";
-      errText.textContent = "Failed to load Unity WebGL loader script. Please check your network connection.";
+      errText.textContent = "Αποτυχία λήψης του WebGL loader script. Ελέγξτε τη σύνδεσή σας.";
     };
     document.body.appendChild(script);
   </script>
