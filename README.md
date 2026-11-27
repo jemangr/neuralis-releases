@@ -5,23 +5,24 @@ Command a subterranean Faraday bunker, balance EMP shielding and reactor stress,
 
 ---
 
-## Live Browser Preview (`v1.4.0`)
+## Live Browser Preview (`v1.6.0`)
 
 - **Play Instantly in Browser (WebGL):** https://jemangr.github.io/neuralis-releases/
+- Built with Unity 6 **Gzip compression**, **decompression fallback**, **content-hashed `.unityweb` assets**, and `?v=1.6.0` cache busting.
 
 ---
 
-## Latest Previews (`v1.4.0`)
+## Latest Previews (`v1.6.0` & `v1.5.0`)
 
 <p align="center">
-  <img src="previews/V140_BunkerZeroVoid_EL.png" alt="Zero-Void Bunker & Charging Station EL" width="240" />
-  <img src="previews/V140_WorldMapTerritory_EL.png" alt="3D World Map Territory & Search Radar EL" width="240" />
-  <img src="previews/V140_SyndicateRally_EL.png" alt="5-Min Cooperative Alliance Rally EL" width="240" />
+  <img src="previews/V160_BunkerBeacon_EL.png" alt="3D Bunker Objective Beacon & Radial Ring EL" width="240" />
+  <img src="previews/V150_BunkerRadial_EL.png" alt="Bunker Facility Radial Ring EL" width="240" />
+  <img src="previews/V160_WorldMapRadar_EL.png" alt="World Map Filter Search Radar EL" width="240" />
 </p>
 <p align="center">
-  <img src="previews/V140_SyndicateRoster_EL.png" alt="Alliance Member Roster EL" width="240" />
-  <img src="previews/V140_HeroRecruitChips_EL.png" alt="Hero Recruitment Chips & Pity EL" width="240" />
-  <img src="previews/V140_MarchDispatchVS_EL.png" alt="VS & Counter Triangle March Prep EL" width="240" />
+  <img src="previews/V160_MarchSticky_EL.png" alt="Sticky Dispatch Bar & Matchup Reason EL" width="240" />
+  <img src="previews/V160_ResourceNetEta_EL.png" alt="Resource Net Overdrive & ETA EL" width="240" />
+  <img src="previews/V150_StoreDeals_EL.png" alt="Starter Pack & Supply Store Deals EL" width="240" />
 </p>
 
 ---
@@ -32,12 +33,17 @@ Command a subterranean Faraday bunker, balance EMP shielding and reactor stress,
 [![Latest Release](https://img.shields.io/github/v/release/jemangr/neuralis-releases?include_prereleases&style=for-the-badge&color=00b0ff)](https://github.com/jemangr/neuralis-releases/releases/latest)
 
 - **Always Latest APK:** [`Neuralis-ZeroHour.apk`](https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk)
-- **Latest Published Android Tag:** `v1.4.0` (`VersionCode: 18`, Android ARM64, API 26+, verified on `gh-pages` & APK).
+- **Latest Published Android Tag:** `v1.6.0` (`VersionCode: 20`, Android ARM64, API 26+, verified on `gh-pages` & APK).
 
 ---
 
-## What's New (`v1.4.0` Preview Highlights)
-- **Zero-Void 3D Subterranean Cave & Wing Tunnels:** 360° stepped basalt cliff basin, perimeter lighting, overhead trusses, and interactive Wing Tunnel Bay doors.
-- **Articulated Worker Bots & 6-Hour Charging Station (`1-in / 1-out`):** Velocity-synced leg/arm walking gait with facility tasks and a 6-hour rotating 3D Charging Bay (`CHG #N`).
-- **World Map Territory, Patrols & Radar:** Cyan/Crimson Syndicate territory overlays, `FIND` Search Radar strip, `[XX:YY]` coords, `PIN` Bookmarks, and `XY` Share in Chat.
-- **Alliance Endgame & Hero Chips:** Syndicate Roster (`R5/R4/R3/R2`), 5-Min Cooperative Rallies, Alliance Gift Chests, and Recruit Chips (`x1`/`x10`) gacha pulls.
+## What's New (`v1.6.0`)
+- **Unified Combat Matchup & Outpost Rewards:** Map indicator, Dispatch preview, and combat resolution share one deterministic power/modifier formula (`Aria DEF debuff`, tech & counter factors) and unified first-clear vs repeat `35% / 0 QC` outpost rewards.
+- **Sticky Dispatch Footer & Named Presets:** Permanent bottom Dispatch bar showing energy cost, round-trip time, next open queue countdown when marches are full (`MAX`), and named squad presets (`Συλλογή`, `Πολιορκία`, `Αναγνώριση` / `Harvest`, `Siege`, `Scout`).
+- **3D Bunker Objective Beacon & Quieter Early Badges:** Tapping the Starter Guide banner opens the target facility upgrade directly with resource cost and build time; floating 3D `TARGET` indicator marks the active objective building.
+- **Radar Filter Clarity & 100% Greek Map Labels:** Category and `-/+` level controls act as clean filters before scanning (`Αναζήτηση`) with explicit empty-level feedback, plus localized Greek buttons (`Στη βάση`, `Αναζήτηση`, `Κλειδωμένο`).
+- **Net Resource Overdrive & Honest Syndicate Help:** Resource overview displays net per-minute change, Overdrive burn, fill/drain ETA, and Hydroponics map routing for Bio-Rations; Alliance Help tracks pending `0/3` member responses until fulfilled.
+- **Reliable WebGL Loading (`Gzip + Content Hashes`):** Eliminates stale browser cache mismatches across versions.
+
+### Previous: `v1.5.0` Highlights
+- Bunker facility radial action ring, refactored Sector World Map Radar controls, Starter Pack & Supply Store polish, and `233+` passing automated sanity checks.

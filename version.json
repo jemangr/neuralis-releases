@@ -1,7 +1,7 @@
 {
-    "apkUrl":  "https://github.com/jemangr/neuralis-releases/releases/download/v1.5.0/Neuralis-ZeroHour.apk",
-    "releaseUrl":  "https://github.com/jemangr/neuralis-releases/releases/tag/v1.5.0",
-    "versionCode":  19,
-    "version":  "1.5.0",
-    "notes":  "Building 3-button radial, top Resource Vault Overview drawer, pervasive red notification badges \u0026 FREE ribbon, Advisor Briefing card (Skip \u003e|), World Map FIND Lv.1-3 radar, March Presets + Equalize, and Store Daily Free Crate."
+  "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v1.6.0/Neuralis-ZeroHour.apk",
+  "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v1.6.0",
+  "versionCode": 20,
+  "version": "1.6.0",
+  "notes": "Unified outpost rewards & combat matchup parity, sticky Dispatch footer & named presets, 3D objective beacon, net Energy Overdrive ETA, honest 0/3 Syndicate help, 100% Greek localization, and Gzip cache-busted WebGL."
 }
