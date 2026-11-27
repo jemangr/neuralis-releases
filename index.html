@@ -4,19 +4,27 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Neuralis Zero Hour v2.0.0</title>
+  <title>Neuralis Zero Hour v2.0.1</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html, body {
       width: 100%;
       height: 100%;
       overflow: hidden;
-      background: radial-gradient(circle at top, #0d1b2e 0%, #050911 72%);
+      background: radial-gradient(circle at 50% 20%, #0d2238 0%, #050b14 60%, #02050a 100%);
       color: #e6f2ff;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    #desktop-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
     }
     #stage {
       position: relative;
@@ -24,7 +32,8 @@
       max-width: 100vw;
       aspect-ratio: 9 / 16;
       background: #060b14;
-      box-shadow: 0 0 48px rgba(0, 210, 255, 0.16), 0 0 0 1px rgba(0, 210, 255, 0.22);
+      box-shadow: 0 0 60px rgba(0, 210, 255, 0.22), 0 0 0 1px rgba(0, 210, 255, 0.35);
+      border-radius: 8px;
       overflow: hidden;
     }
     @media (max-aspect-ratio: 9/16) {
@@ -32,6 +41,8 @@
         width: 100vw;
         height: auto;
         max-height: 100dvh;
+        border-radius: 0;
+        box-shadow: none;
       }
     }
     #unity-canvas {
@@ -56,54 +67,92 @@
     #loader-title {
       font-size: 22px;
       font-weight: 700;
-      letter-spacing: 1.5px;
+      letter-spacing: 2px;
       color: #3be0ff;
       margin-bottom: 6px;
       text-align: center;
+      text-transform: uppercase;
+      text-shadow: 0 0 16px rgba(59, 224, 255, 0.6);
     }
     #loader-sub {
       font-size: 13px;
       color: #93b0cf;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
       text-align: center;
+      letter-spacing: 0.5px;
     }
     #bar-track {
       width: 82%;
+      max-width: 320px;
       height: 12px;
       border-radius: 999px;
       background: #102036;
       border: 1px solid #1d4166;
       overflow: hidden;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
     }
     #bar-fill {
       width: 0%;
       height: 100%;
-      background: linear-gradient(90deg, #00a8ff, #42f5ff);
-      transition: width 0.12s linear;
+      background: linear-gradient(90deg, #0099ff, #00e5ff);
+      box-shadow: 0 0 12px rgba(0, 229, 255, 0.8);
+      transition: width 0.15s ease-out;
     }
     #loader-pct {
-      margin-top: 10px;
+      margin-top: 12px;
       font-size: 13px;
+      font-weight: 600;
       color: #bfe6ff;
+      letter-spacing: 1px;
+    }
+    #loader-status {
+      margin-top: 6px;
+      font-size: 11px;
+      color: #6488a8;
+      letter-spacing: 0.5px;
     }
     #loader-err {
-      margin-top: 14px;
+      margin-top: 16px;
       font-size: 13px;
-      color: #ff7373;
+      color: #ff6b6b;
       text-align: center;
       display: none;
+      max-width: 85%;
+      line-height: 1.4;
+    }
+    #retry-btn {
+      display: none;
+      margin-top: 14px;
+      padding: 8px 20px;
+      background: #1b3a5c;
+      border: 1px solid #3be0ff;
+      color: #e6f2ff;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: background 0.2s;
+    }
+    #retry-btn:hover {
+      background: #255180;
     }
   </style>
 </head>
 <body>
-  <div id="stage">
-    <canvas id="unity-canvas" tabindex="-1"></canvas>
-    <div id="loader-overlay">
-      <div id="loader-title">Neuralis Zero Hour</div>
-      <div id="loader-sub">v2.0.0 • Web Preview</div>
-      <div id="bar-track"><div id="bar-fill"></div></div>
-      <div id="loader-pct">0%</div>
-      <div id="loader-err"></div>
+  <div id="desktop-wrapper">
+    <div id="stage">
+      <canvas id="unity-canvas" tabindex="-1"></canvas>
+      <div id="loader-overlay">
+        <div id="loader-title">Neuralis Zero Hour</div>
+        <div id="loader-sub">v2.0.1 • Operational Web Preview</div>
+        <div id="bar-track"><div id="bar-fill"></div></div>
+        <div id="loader-pct">0%</div>
+        <div id="loader-status">Initializing Tactical Systems...</div>
+        <div id="loader-err"></div>
+        <button id="retry-btn" onclick="location.reload()">Reload Session</button>
+      </div>
     </div>
   </div>
   <script>
@@ -111,18 +160,20 @@
     const overlay = document.querySelector("#loader-overlay");
     const barFill = document.querySelector("#bar-fill");
     const pctText = document.querySelector("#loader-pct");
+    const statusText = document.querySelector("#loader-status");
     const errText = document.querySelector("#loader-err");
+    const retryBtn = document.querySelector("#retry-btn");
 
     const buildUrl = "Build";
-    const loaderUrl = buildUrl + "/bcb7870acdf20f58718500fae3f0ff6b.loader.js?v=2.0.0";
+    const loaderUrl = buildUrl + "/b644e02ecc591e33f36b890f6c349a53.loader.js?v=2.0.1";
     const config = {
-      dataUrl: buildUrl + "/5809d4e12568453a2920db4381cb6029.data.unityweb",
-      frameworkUrl: buildUrl + "/a14c5eba52a3c49b1412f6b439fe7b14.framework.js.unityweb",
-      codeUrl: buildUrl + "/61e1c4a6292114f130cfca993004a692.wasm.unityweb",
+      dataUrl: buildUrl + "/4f6999b409800f5bf645f274ddb57bbb.data",
+      frameworkUrl: buildUrl + "/a14c5eba52a3c49b1412f6b439fe7b14.framework.js",
+      codeUrl: buildUrl + "/892a097c4c082b7e88d56898499ca845.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "jemangr",
       productName: "Neuralis Zero Hour",
-      productVersion: "2.0.0",
+      productVersion: "2.0.1",
       devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
       matchWebGLToCanvasSize: true
     };
@@ -130,21 +181,34 @@
     const script = document.createElement("script");
     script.src = loaderUrl;
     script.onload = () => {
+      statusText.textContent = "Loading WebAssembly Core & Assets...";
       createUnityInstance(canvas, config, (progress) => {
         const pct = Math.round(progress * 100);
         barFill.style.width = pct + "%";
         pctText.textContent = pct + "%";
+        if (pct < 30) {
+          statusText.textContent = "Streaming Data Package...";
+        } else if (pct < 75) {
+          statusText.textContent = "Compiling WASM Engine...";
+        } else if (pct < 98) {
+          statusText.textContent = "Initializing 3D Subterranean Scene...";
+        } else {
+          statusText.textContent = "Readying Commander Interface...";
+        }
       }).then(() => {
         overlay.style.opacity = "0";
-        setTimeout(() => { overlay.style.display = "none"; }, 260);
+        setTimeout(() => { overlay.style.display = "none"; }, 280);
       }).catch((message) => {
         errText.style.display = "block";
-        errText.textContent = String(message);
+        retryBtn.style.display = "inline-block";
+        errText.textContent = "WebGL Initialization Error: " + String(message);
+        console.error("[Neuralis WebGL Error]", message);
       });
     };
     script.onerror = () => {
       errText.style.display = "block";
-      errText.textContent = "Failed to load Unity WebGL loader.";
+      retryBtn.style.display = "inline-block";
+      errText.textContent = "Failed to load Unity WebGL loader script. Please check your network connection.";
     };
     document.body.appendChild(script);
   </script>
