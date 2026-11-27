@@ -1,7 +1,7 @@
 {
-    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.1/Neuralis-ZeroHour.apk",
-    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.1",
-    "versionCode": 25,
-    "version": "2.0.1",
-    "notes": "v2.0.1 Studio Release: Charging Station 180° rotation, Android double-tap Back exit, VIP-scaled Free Speedup balance, 3-Hero Squad Command bar with Auto-Counter synergy, Autonomous Cargo Rovers, Cavern Atmosphere & VFX, and WebGL streaming loader fix (zero 73% decompressor crash)."
+    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.2/Neuralis-ZeroHour.apk",
+    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.2",
+    "versionCode": 26,
+    "version": "2.0.2",
+    "notes": "v2.0.2 Hermes Directives & Polish Release: WebGL Watchdog auto-recovery & retry state (zero 73% crash), Guest-first zero forced social login, Quest tracker step counter (e.g. 1/3) with animated target highlight & permanent Skip, Character dialogue system with portraits & advance chevrons, 6-icon locked bottom quest rail, Intro tactical story choice, 3-question player survey, 7-day calendar & VIP 1 default, Charging Station camera-facing Euler 215° rotation with outward robot, 100% grounded bedrock cavern (zero floating stalactites or pipes), and ultra-compact builder queue pill."
 }
