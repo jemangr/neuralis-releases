@@ -5,24 +5,24 @@ Command a subterranean Faraday bunker, balance EMP shielding and reactor stress,
 
 ---
 
-## Live Browser Preview (`v1.8.0`)
+## Live Browser Preview (`v1.9.0`)
 
-- **Play Instantly in Browser (WebGL):** https://jemangr.github.io/neuralis-releases/
-- Built with Unity 6 **Gzip compression**, **decompression fallback**, **content-hashed `.unityweb` assets**, and `?v=1.8.0` cache busting.
+- **Play Instantly in Browser (WebGL):** https://jemangr.github.io/neuralis-releases/?v=1.9.0
+- Built with Unity 6 **Gzip compression**, **decompression fallback**, **content-hashed `.unityweb` assets**, and `?v=1.9.0` cache busting.
 
 ---
 
-## Latest Previews (`v1.8.0`)
+## Latest Previews (`v1.9.0`)
 
 <p align="center">
-  <img src="previews/V180_RobotCloseUp_Gate.png" alt="Sculpted 11-Bone Bunker Engineer with Glowing Cyan Visor" width="240" />
-  <img src="previews/V180_RobotCharging_CloseUp.png" alt="Docked Bunker Engineer & Hovering Sculpted Recon Drone" width="240" />
-  <img src="previews/V180_PrinterLab_CloseUp.png" alt="Rotated 3D Printer Cutaway Interior Facing Camera" width="240" />
+  <img src="previews/V190_CavernWide_EL.png" alt="Subterranean Basalt Cavern with Glowing Crystals and Outcrops" width="240" />
+  <img src="previews/V190_BuildersUpgrade_EL.png" alt="Builder Roster HUD, Live Overhead Upgrade Banners and Welding Sparks EL" width="240" />
+  <img src="previews/V190_BuildersUpgrade_EN.png" alt="Builder Roster HUD, Live Overhead Upgrade Banners and Welding Sparks EN" width="240" />
 </p>
 <p align="center">
-  <img src="previews/V180_BunkerLivingBots_EL.png" alt="Living Bunker Units & Orthogonal Pathfinding EL" width="240" />
-  <img src="previews/V180_BunkerLivingBots_EN.png" alt="Living Bunker Units & Orthogonal Pathfinding EN" width="240" />
-  <img src="previews/V170_MarchAutoReason_EL.png" alt="Auto-Counter Explanation & Sticky Dispatch EL" width="240" />
+  <img src="previews/V190_BuildersSingleIdle_EL.png" alt="Single Builder Idle State EL" width="240" />
+  <img src="previews/V180_RobotCloseUp_Gate.png" alt="Sculpted 11-Bone Bunker Engineer with Glowing Cyan Visor" width="240" />
+  <img src="previews/V180_PrinterLab_CloseUp.png" alt="Rotated 3D Printer Cutaway Interior Facing Camera" width="240" />
 </p>
 
 ---
@@ -33,16 +33,17 @@ Command a subterranean Faraday bunker, balance EMP shielding and reactor stress,
 [![Latest Release](https://img.shields.io/github/v/release/jemangr/neuralis-releases?include_prereleases&style=for-the-badge&color=00b0ff)](https://github.com/jemangr/neuralis-releases/releases/latest)
 
 - **Always Latest APK:** [`Neuralis-ZeroHour.apk`](https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk)
-- **Latest Published Android Tag:** `v1.7.0` (`VersionCode: 21`, Android ARM64, API 26+, verified on `gh-pages` & APK).
+- **Latest Published Android Tag:** `v1.9.0` (`VersionCode: 23`, Android ARM64, API 26+, verified on `gh-pages` & APK).
 
 ---
 
-## What's New (`v1.7.0`)
-- **Actionable Objectives & Edge Beacon:** Smooth camera pan on target buildings, inline radial quick actions, directional `< / > / ^ / v` edge beacon when off-screen, and locked dock slots routing directly to the Faraday Core.
-- **Decision-First Upgrades & Resource Shortfall Jump:** Upgrades lead with key unlocks or net per-minute output, show exact resource shortfalls (`Missing: +X Titanium`), and provide 1-tap `Collect` / `Go to Producer` / `Go to Core` shortcuts.
-- **North Blast Gate AETHER Threat, Spatial Crates & Honest Debrief:** 3D AETHER patrol outside the North Gate triggers a brisk 40s Drone Swarm defense with explicit `Retry Defense (Full Crate)` vs `Continue Without Bonus`, strict win/loss outcome debriefing, interactive spatial bunker Supply Crates (`COLLECT!`), and floating producer harvest bubbles.
-- **Auto-Counter Explanation & Clean Battle Report:** Dispatch explains exact counter units picked; Battle Report highlights Loot Secured, Hero Contributions, Drones Awaiting Repair + `Repair Now`, and collapsed `Round Details (6) [+]`.
-- **3-Field Structured Store Passes:** Pass cards consistently present **Duration**, **Instant**, and **Daily + Claim Rule** while preserving instant access to the Daily Free Supply Crate.
+## What's New (`v1.9.0`)
+- **Subterranean Cavern («Σπηλιά») 3D Overhaul:** Replaced flat concrete parking slabs and retaining walls with sculpted basalt bedrock terraces, cliff escarpments, 12 faceted rock outcrops, ceiling stalactites, glowing mineral crystal clusters, and fortified stone tunnel North Blast Gate.
+- **Builder Roster HUD & 3D Builder Robot Dispatch:** Top-left `1/1` & `2/2` builder card with live states, floating overhead upgrade progress bars with countdowns, and 3D builder robots navigating on the road network with amber welding sparks and helmet tags.
+- **P0 Menu Input Isolation:** Fixed background world clicks and gate threat launches while in modals or overlays.
+- **P1 Exact 3-Phase March ETA:** Integrated exact 3-phase march ETA (`2 * travel + action`, 18s gather action, gather subtitle & expected QC harvest copy).
+- **P1 Unified Outpost & War Room First-Clear Parity:** Advanced campaign stage on world map clear; War Room raid pays 0 QC and 35% on repeats for already-cleared outposts.
+- **P1 UI/UX Polish:** Sub-tab scroll reset on switch, radial quick upgrade inspection card, tower buttons showing spent & gained, and honest speedup labels.
 
-### Previous: `v1.6.0` Highlights
-- Unified outpost first-clear vs repeat `35% / 0 QC` rewards, single-formula combat matchup parity, pinned sticky Dispatch footer, net Energy Overdrive ETA, `0/3 -> 3/3` Syndicate build help, and WebGL Gzip compression.
+### Previous: `v1.8.0` Highlights
+- Sculpted 11-bone skeletal engineers with topological arm skinning, glowing cyan visors, 23-node orthogonal road-graph BFS, Recon Drone thruster trails, and rotated cutaway 3D Printer.

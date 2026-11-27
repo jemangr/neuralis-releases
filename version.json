@@ -1,7 +1,7 @@
 {
-    "apkUrl":  "https://github.com/jemangr/neuralis-releases/releases/download/v1.8.0/Neuralis-ZeroHour.apk",
-    "releaseUrl":  "https://github.com/jemangr/neuralis-releases/releases/tag/v1.8.0",
-    "versionCode":  22,
-    "version":  "1.8.0",
-    "notes":  "Sculpted 11-bone Bunker Engineers with topological arm skinning and glowing cyan visors, 23-node orthogonal road-graph BFS pathfinding, Recon Drone plasma thruster trails, and rotated 3D Printer cutaway facing the camera."
+    "apkUrl":  "https://github.com/jemangr/neuralis-releases/releases/download/v1.9.0/Neuralis-ZeroHour.apk",
+    "releaseUrl":  "https://github.com/jemangr/neuralis-releases/releases/tag/v1.9.0",
+    "versionCode":  23,
+    "version":  "1.9.0",
+    "notes":  "Subterranean Cavern (Σπηλιά) 3D overhaul, Builder Roster HUD card, live overhead upgrade progress bars with countdowns, 3D builder robot dispatch with welding sparks, and full P0/P1/P2 fixes for menu input isolation, 3-phase march ETA, and unified outpost rewards."
 }
