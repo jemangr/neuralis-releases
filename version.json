@@ -1,7 +1,7 @@
 {
-  "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v1.6.0/Neuralis-ZeroHour.apk",
-  "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v1.6.0",
-  "versionCode": 20,
-  "version": "1.6.0",
-  "notes": "Unified outpost rewards & combat matchup parity, sticky Dispatch footer & named presets, 3D objective beacon, net Energy Overdrive ETA, honest 0/3 Syndicate help, 100% Greek localization, and Gzip cache-busted WebGL."
+  "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v1.7.0/Neuralis-ZeroHour.apk",
+  "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v1.7.0",
+  "versionCode": 21,
+  "version": "1.7.0",
+  "notes": "Actionable objective camera focus & edge beacon, decision-first upgrades with resource shortfall jumps, North Gate 3D AETHER threat event with Retry & spatial reward crates, Auto-Counter explanation, redesigned Battle Report with Repair CTA, and 3-field Pass cards."
 }
