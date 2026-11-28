@@ -1,7 +1,7 @@
 {
-    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.4/Neuralis-ZeroHour.apk",
-    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.4",
-    "versionCode": 28,
-    "version": "2.0.4",
-    "notes": "New command look for the home screen, facility upgrades and the Supply & VIP Exchange; one top bar everywhere with a settings button; brighter bunker lighting; one-line goals; cleaner text and fixed missing symbols."
+    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.5/Neuralis-ZeroHour.apk",
+    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.5",
+    "versionCode": 29,
+    "version": "2.0.5",
+    "notes": "Upgrade buildings and drones now with diamonds (the store opens on the pack that covers the rest), a cleaner bunker with walkway lights and a soft core glow, settings next to your commander on every screen, larger trust and panic."
 }
