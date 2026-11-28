@@ -1,48 +1,87 @@
-# Neuralis: Zero Hour — Official Pre-Release Builds & Live Preview
+<p align="center">
+  <img src="previews/hero_banner.jpg" alt="Neuralis: Zero Hour" width="100%" />
+</p>
 
-Mobile AI Apocalypse Survival Strategy game (**Unity 6 URP 3D**, **Android ARM64 & WebGL**, Greek & English).  
-Command a subterranean Faraday bunker, balance EMP shielding and reactor stress, automate articulated repair bots with a 6-hour charging rotation, recruit cybernetic Vanguard heroes, coordinate Syndicate rallies, and battle across a 3D Isometric Sector World Map.
+<h1 align="center">Neuralis: Zero Hour</h1>
 
----
-
-## Live Browser Preview (`v2.0.0`)
-
-- **Play Instantly in Browser (WebGL):** https://jemangr.github.io/neuralis-releases/?v=2.0.0
-- Built with Unity 6 **Gzip compression**, **decompression fallback**, **content-hashed `.unityweb` assets**, and `?v=2.0.0` cache busting.
-
----
-
-## Latest Previews (`v2.0.0`)
+<p align="center"><b>The AI took the surface. You still hold the bunker.</b><br/>
+A free sci-fi survival-strategy game for Android and the browser.</p>
 
 <p align="center">
-  <img src="previews/V190_CavernWide_EL.png" alt="Subterranean Basalt Cavern with Glowing Crystals and Outcrops" width="240" />
-  <img src="previews/V190_PrinterLab_FacingCamera_EL.png" alt="3D Printer Lab Rotated 180 Degrees Facing South to Player Camera" width="240" />
-  <img src="previews/V190_WorldMap_SectorView_EL.png" alt="Sector #001 3D World Map with 10+ Visible Targets" width="240" />
+  <a href="https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk"><img src="https://img.shields.io/badge/Download_APK-Android-00C853?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" /></a>
+  <a href="https://jemangr.github.io/neuralis-releases/"><img src="https://img.shields.io/badge/Play_Online-in_your_browser-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Play Online" /></a>
 </p>
 <p align="center">
-  <img src="previews/V190_BuildersSingleIdle_EL.png" alt="Compact Builders HUD Pill" width="240" />
-  <img src="previews/V190_BuildersUpgrade_EL.png" alt="Expanded Builder Queue HUD" width="240" />
-  <img src="previews/V180_RobotCloseUp_Gate.png" alt="Sculpted 11-Bone Bunker Engineer with Glowing Cyan Visor" width="240" />
+  <a href="https://github.com/jemangr/neuralis-releases/releases/latest"><img src="https://img.shields.io/github/v/release/jemangr/neuralis-releases?style=flat-square&label=latest&color=7C4DFF" alt="Latest version" /></a>
+  <img src="https://img.shields.io/badge/price-free-2ea44f?style=flat-square" alt="Free" />
+  <img src="https://img.shields.io/badge/languages-English%20%7C%20Greek-blue?style=flat-square" alt="English and Greek" />
+  <img src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android 8.0+" />
 </p>
 
 ---
 
-## Download Latest Published APK
+Zero Hour. A rogue AI called **AETHER** hijacked the orbital defense grid and swept the surface clean in six hours. The last survivors fled thirty meters underground, into a Faraday bunker that keeps them hidden as long as its shield holds.
 
-[![Download Latest APK](https://img.shields.io/badge/Download_APK-Neuralis--ZeroHour.apk-00C853?style=for-the-badge&logo=android&logoColor=white)](https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk)
-[![Latest Release](https://img.shields.io/github/v/release/jemangr/neuralis-releases?include_prereleases&style=for-the-badge&color=00b0ff)](https://github.com/jemangr/neuralis-releases/releases/latest)
+You are their commander. Build, research, defend and strike back.
 
-- **Always Latest APK:** [`Neuralis-ZeroHour.apk`](https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk)
-- **Latest Published Android Tag:** `v2.0.0` (`VersionCode: 24`, Android ARM64, API 26+, verified on `gh-pages` & APK).
+## Features
+
+- **Build your bunker** – grow 8 facilities in a living 3D cavern, from the Faraday Core to the Drone Hangar, and watch your engineers and repair bots at work.
+- **Stay hidden** – balance the EMP shield, reactor heat, trust and panic while AETHER scans for you.
+- **Defend the gate** – *Drone Swarm Intercept*: place and merge turrets to hold the perimeter for 60 seconds. Your first battle is guided step by step.
+- **Lead heroes and drones** – recruit 8 heroes with combat skills and send drone squads (T1–T10) across a 3D surface map: outposts, rival bunkers, resource nodes and a boss.
+- **Play together** – join a Syndicate, help allies build faster, rally against bosses and chat.
+- **Your progress, everywhere** – automatic cloud save and a recovery code to move to a new phone. No sign-in required.
+- **English and Greek** – the game starts in your device's language.
+
+## Screenshots
+
+<p align="center">
+  <img src="previews/v203_firstbattlecoach_en.jpg" width="200" alt="Guided first battle" />
+  <img src="previews/v203_basehud_en.jpg" width="200" alt="Your bunker" />
+  <img src="previews/v203_worldmap_en.jpg" width="200" alt="Sector world map" />
+  <img src="previews/v203_gatherdispatch_en.jpg" width="200" alt="Send a squad to gather" />
+</p>
+<p align="center">
+  <img src="previews/v203_battleresult_en.jpg" width="200" alt="Battle result" />
+  <img src="previews/v203_upgradecard_en.jpg" width="200" alt="Upgrade a facility" />
+  <img src="previews/v203_intro_kael_en.jpg" width="200" alt="Story" />
+  <img src="previews/v203_basehud_el.jpg" width="200" alt="Fully translated in Greek" />
+</p>
+
+## Get the game
+
+| | How |
+|---|---|
+| **Android** | Tap **Download APK** above, open the file and allow installs from your browser if Android asks. Updates install over the previous version and keep your progress. |
+| **Browser** | Tap **Play Online**. The first load downloads the game once (about 100 MB); after that it starts in seconds. |
+
+The download link always points to the newest version:
+`https://github.com/jemangr/neuralis-releases/releases/latest/download/Neuralis-ZeroHour.apk`
+
+## System requirements
+
+- **Android:** Android 8.0 or newer, 64-bit (ARM64) device, about 80 MB of free space.
+- **Browser:** a current desktop version of Chrome, Edge, Firefox or Safari with WebGL 2. Phones can play in the browser too, but the Android app runs smoother.
+- An internet connection is needed for cloud save, chat and multiplayer features; the base game also runs offline.
+
+## Privacy
+
+- You play as a guest. No sign-in, email or real name is required.
+- Your progress is saved on your device and, when you're online, to the game server under an anonymous player ID, so you can restore it with your recovery code.
+- The game sends basic gameplay events (for example, "battle finished") to help balance it. Chat messages you send are stored so other players can read them and so abuse can be reported.
+- You can delete your account and cloud data at any time in **Settings → Delete Account**.
+- A full privacy policy will be published at [playneuralis.app](https://playneuralis.app).
+
+## What's new
+
+See the [latest release notes](https://github.com/jemangr/neuralis-releases/releases/latest).
+
+## Links
+
+- Website: [playneuralis.app](https://playneuralis.app)
+- All versions: [Releases](https://github.com/jemangr/neuralis-releases/releases)
 
 ---
 
-## What's New (`v2.0.0`)
-- **Subterranean Cavern Overhaul (Zero Black Void & Obstruction Removal):** Removed giant diagonal utility pipe slicing across the screen, rock-anchored all stalactites into solid cliff outcrops, and vaulted perimeter rock walls to 48m radius with a 52m bedrock foundation floor eliminating all void clipping.
-- **3D Printer Lab Camera Orientation:** Rotated 180° to face South directly toward player camera, exposing glowing laser chamber, robotic arm, and computer terminal.
-- **Compact Builder HUD Pill:** Replaced large fixed box with a compact pill (`0/2 ▼`) with wrench icon that expands on tap to display detailed build queues, active countdowns, and facility targets.
-- **3D World Map (Sector #001) Multi-Target Visibility:** Widened camera viewport (pitch 48°, distance 68m, FOV 54°) immediately revealing 10+ 3D landmarks (Titanium & Energy nodes, AETHER Outposts, Rival Bunkers, Omega Titan Boss) with a quick-jump navigation dock.
-- **Whiteout Survival Free Speedup (<5 min):** Instant free finish for upgrades with under 5 minutes remaining without requiring ad-watching.
-
-### Previous: `v1.9.0` Highlights
-- Subterranean Cavern 3D overhaul, Builder Roster HUD card, live overhead upgrade progress bars with countdowns, 3D builder robot dispatch with welding sparks, and full P0/P1/P2 fixes for menu input isolation.
+<sub>© 2026 Neuralis: Zero Hour. All rights reserved. The game files are provided for personal play only; see <a href="LICENSE">LICENSE</a>.</sub>
