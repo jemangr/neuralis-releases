@@ -1,7 +1,7 @@
 {
-    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.5/Neuralis-ZeroHour.apk",
-    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.5",
-    "versionCode": 29,
-    "version": "2.0.5",
-    "notes": "Upgrade buildings and drones now with diamonds (the store opens on the pack that covers the rest), a cleaner bunker with walkway lights and a soft core glow, settings next to your commander on every screen, larger trust and panic."
+    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.6/Neuralis-ZeroHour.apk",
+    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.6",
+    "versionCode": 30,
+    "version": "2.0.6",
+    "notes": "Tap your portrait for your commander and heroes, VIP level always under your portrait, no glowing outlines around building bases, a closed roof on the 3D Printer."
 }
