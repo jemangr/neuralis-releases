@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="previews/hero_banner.jpg" alt="Neuralis: Zero Hour" width="100%" />
+  <img src="previews/hero_banner_v205.jpg" alt="Neuralis: Zero Hour" width="100%" />
 </p>
 
 <h1 align="center">Neuralis: Zero Hour</h1>
