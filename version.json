@@ -1,7 +1,7 @@
 {
-    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.2/Neuralis-ZeroHour.apk",
-    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.2",
-    "versionCode": 26,
-    "version": "2.0.2",
-    "notes": "v2.0.2 Hermes Directives & Polish Release: WebGL Watchdog auto-recovery & retry state (zero 73% crash), Guest-first zero forced social login, Quest tracker step counter (e.g. 1/3) with animated target highlight & permanent Skip, Character dialogue system with portraits & advance chevrons, 6-icon locked bottom quest rail, Intro tactical story choice, 3-question player survey, 7-day calendar & VIP 1 default, Charging Station camera-facing Euler 215° rotation with outward robot, 100% grounded bedrock cavern (zero floating stalactites or pipes), and ultra-compact builder queue pill."
+    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.3/Neuralis-ZeroHour.apk",
+    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.3",
+    "versionCode": 27,
+    "version": "2.0.3",
+    "notes": "Guided first battle (can't be lost, auto-place, clear win/loss screen), Greek on Greek devices, clearer survey, one name per building, Maximize Load for gathering, map remembers your view, cloud auto-save with recovery code."
 }
