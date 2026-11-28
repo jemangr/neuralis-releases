@@ -1,7 +1,7 @@
 {
-    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.3/Neuralis-ZeroHour.apk",
-    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.3",
-    "versionCode": 27,
-    "version": "2.0.3",
-    "notes": "Guided first battle (can't be lost, auto-place, clear win/loss screen), Greek on Greek devices, clearer survey, one name per building, Maximize Load for gathering, map remembers your view, cloud auto-save with recovery code."
+    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.4/Neuralis-ZeroHour.apk",
+    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.4",
+    "versionCode": 28,
+    "version": "2.0.4",
+    "notes": "New command look for the home screen, facility upgrades and the Supply & VIP Exchange; one top bar everywhere with a settings button; brighter bunker lighting; one-line goals; cleaner text and fixed missing symbols."
 }
