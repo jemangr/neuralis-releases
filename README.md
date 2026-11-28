@@ -40,13 +40,13 @@ You are their commander. Build, research, defend and strike back.
   <img src="previews/v205_home_en.jpg" width="200" alt="Your bunker" />
   <img src="previews/v205_upgrade_gems_en.jpg" width="200" alt="Upgrade now with diamonds" />
   <img src="previews/v205_store_gems_en.jpg" width="200" alt="The pack that covers your upgrade" />
-  <img src="previews/v205_home_el.jpg" width="200" alt="Fully translated in Greek" />
+  <img src="previews/v205_market_en.jpg" width="200" alt="Supply &amp; VIP Exchange" />
 </p>
 <p align="center">
-  <img src="previews/v204_exchange_en.jpg" width="200" alt="Supply &amp; VIP Exchange" />
-  <img src="previews/v203_firstbattlecoach_en.jpg" width="200" alt="Guided first battle" />
-  <img src="previews/v203_worldmap_en.jpg" width="200" alt="Sector world map" />
-  <img src="previews/v203_battleresult_en.jpg" width="200" alt="Battle result" />
+  <img src="previews/v205_drones_en.jpg" width="200" alt="Upgrade your drones" />
+  <img src="previews/v205_home_el.jpg" width="200" alt="Fully translated in Greek" />
+  <img src="previews/v205_upgrade_gems_el.jpg" width="200" alt="Upgrade in Greek" />
+  <img src="previews/v205_market_el.jpg" width="200" alt="Exchange in Greek" />
 </p>
 
 ## Get the game
