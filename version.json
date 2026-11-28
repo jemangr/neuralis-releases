@@ -1,7 +1,7 @@
 {
-    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.6/Neuralis-ZeroHour.apk",
-    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.6",
-    "versionCode": 30,
-    "version": "2.0.6",
-    "notes": "Tap your portrait for your commander and heroes, VIP level always under your portrait, no glowing outlines around building bases, a closed roof on the 3D Printer."
+    "apkUrl": "https://github.com/jemangr/neuralis-releases/releases/download/v2.0.7/Neuralis-ZeroHour.apk",
+    "releaseUrl": "https://github.com/jemangr/neuralis-releases/releases/tag/v2.0.7",
+    "versionCode": 31,
+    "version": "2.0.7",
+    "notes": "No glowing rings around building bases, the Faraday Core glow stays on the core, the 3D Printer is an open cutaway, and the Trust label is no longer cut off."
 }

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="previews/hero_banner_v206.jpg" alt="Neuralis: Zero Hour" width="100%" />
+  <img src="previews/hero_banner_v207.jpg" alt="Neuralis: Zero Hour" width="100%" />
 </p>
 
 <h1 align="center">Neuralis: Zero Hour</h1>
@@ -37,16 +37,16 @@ You are their commander. Build, research, defend and strike back.
 ## Screenshots
 
 <p align="center">
-  <img src="previews/v206_home_en.jpg" width="200" alt="Your bunker" />
-  <img src="previews/v206_upgrade_gems_en.jpg" width="200" alt="Upgrade now with diamonds" />
-  <img src="previews/v206_store_gems_en.jpg" width="200" alt="The pack that covers your upgrade" />
-  <img src="previews/v206_market_en.jpg" width="200" alt="Supply &amp; VIP Exchange" />
+  <img src="previews/v207_home_en.jpg" width="200" alt="Your bunker" />
+  <img src="previews/v207_upgrade_gems_en.jpg" width="200" alt="Upgrade now with diamonds" />
+  <img src="previews/v207_store_gems_en.jpg" width="200" alt="The pack that covers your upgrade" />
+  <img src="previews/v207_market_en.jpg" width="200" alt="Supply &amp; VIP Exchange" />
 </p>
 <p align="center">
-  <img src="previews/v206_drones_en.jpg" width="200" alt="Upgrade your drones" />
-  <img src="previews/v206_home_el.jpg" width="200" alt="Fully translated in Greek" />
-  <img src="previews/v206_upgrade_gems_el.jpg" width="200" alt="Upgrade in Greek" />
-  <img src="previews/v206_market_el.jpg" width="200" alt="Exchange in Greek" />
+  <img src="previews/v207_drones_en.jpg" width="200" alt="Upgrade your drones" />
+  <img src="previews/v207_home_el.jpg" width="200" alt="Fully translated in Greek" />
+  <img src="previews/v207_upgrade_gems_el.jpg" width="200" alt="Upgrade in Greek" />
+  <img src="previews/v207_market_el.jpg" width="200" alt="Exchange in Greek" />
 </p>
 
 ## Get the game
